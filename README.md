@@ -25,8 +25,8 @@ Huddle-landingpage component challenge on Frontend Mentor
 
 ### Links
 
-- Solution URL:[ Frontendmentor.io](https://www.frontendmentor.io/solutions/blog-preview-page-dCZFQD-jmM)
-- Live Site URL:[Blog Preview](https://blog-preview-seven.vercel.app)
+- Solution URL:[ Frontendmentor.io](https://www.frontendmentor.io/solutions/huddle-landing-page-FWNVHleseT)
+- Live Site URL:[Blog Preview](https://huddle-landingpage-nu.vercel.app/)
 
 ## My process
 
