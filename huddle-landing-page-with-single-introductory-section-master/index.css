@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+/* CSS Reset */
+
+/* Remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set box-sizing to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Remove list styles (bullets, indentation, etc.) */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove default hyperlink styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset form elements */
+button, input, select, textarea, img {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+/* Additional resets can be added here */
+
+/* END: CSS Reset */
+:root{
+    --Violet: #674baf;
+    --Soft-Magenta: #e882e8;
+
+}
+body{
+    background-color:#674baf;
+    background-image: url(./images/bg-desktop.svg);
+}
+.container{
+    padding: 40px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+.illustration{
+    width: 600px;
+}
+h2{
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404)    ;
+    color: #674baf;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 24px;
+    border-radius: 10rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    width: 140px;
+}
+.btn:hover{
+    background-color:#e882e8;
+    color: white;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    outline-color: white;
+    margin-top: 40px;
+    margin-left: auto;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px){
+    body{
+        background-color:#674baf;
+        background-image: url(./images/bg-mobile.svg);
+
+    }
+    .main{
+        display: block;
+    }
+    .container{
+        padding: 20px 0px;
+        margin: 0 auto;
+        width: 325px;
+    }
+
+    .illustration{
+        width: 100%;
+    }
+
+    .logo{
+        width: 40%;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 0 14px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0 10px;
+    }
+    .text{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        outline-color: white;
+    }
+    .icon{
+        width: 24px;
+        height: 24px;
+    }
+    .btn{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+        font-size: 12px;
+        font-weight: 400;
+        padding: 8px 10px;
+        width: 180px;
+    }
+}
