@@ -1,7 +1,7 @@
 # Huddle-landingpage
 
 
-# Frontend Mentor - Blog Preview solution
+# Frontend Mentor - Huddle-landingpage solution
 
 This is a solution to the [Huddle-landingpage challenge on Frontend Mentor]. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
